@@ -1,0 +1,35 @@
+<com.dushu1.doubanai.utils.ScrollChildSwipeRefreshLayout
+    android:id="@+id/refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dushu1.doubanai.books.booksFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/books_frg_recy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:id="@+id/ll_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="不好意思，服务器开小差咯......"
+            />
+
+    </LinearLayout>
+
+
+</com.dushu1.doubanai.utils.ScrollChildSwipeRefreshLayout>

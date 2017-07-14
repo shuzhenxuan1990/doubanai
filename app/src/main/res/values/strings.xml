@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">爱豆瓣</string>
+    <string name="movie_fragment">热门电影</string>
+    <string name="books_fragment">Hello books</string>
+    <string name="tab_movie">爱电影</string>
+    <string name="tab_books">爱读书</string>
+    <string name="movie_detail_info">电影信息</string>
+    <string name="movie_detail_interduce">简介</string>
+    <string name="action_settings">Setting</string>
+    <string name="movie_casts">主演：</string>
+    <string name="movie_aka">又名：</string>
+    <string name="movie_year">上映：</string>
+    <string name="movie_genres">类型：</string>
+    <string name="movie_during">片长：</string>
+    <string name="movie_countries">地区：</string>
+    <string name="movie_languages">语言：</string>
+    <string name="movie_imdb">IMDb：</string>
+    <string name="movie_not_find">无法获取</string>
+
+    <string name="prefix_subtitle">副标题: %1$s</string>
+    <string name="prefix_author">作者: %1$s</string>
+    <string name="prefix_pubdata">出版日期: %1$s</string>
+    <string name="prefix_pages">页数: %1$s</string>
+    <string name="prefix_price">定价: %1$s</string>
+    movie_casts
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_movies">no movie yo</string>
+</resources>
